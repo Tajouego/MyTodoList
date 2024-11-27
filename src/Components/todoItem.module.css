@@ -1,0 +1,29 @@
+.item {
+  width: 550px;
+  color: #000;
+  font-size: 20px;
+  padding: 0;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.itemName {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.line {
+  border: 1px solid #f4f4f4;
+}
+.itemButton {
+  background-color: #77c79d;
+  border: none;
+  padding: 15px;
+  color: #fff;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.completed{
+  text-decoration: line-through;
+}
